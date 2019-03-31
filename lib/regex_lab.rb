@@ -26,7 +26,7 @@ end
 end
 
 def valid_phone_number?(phone)
-if phone.match(/\A[0-9]{10}\z/) == nil
+if phone.match(/^([^[0-9]]*[0-9]){10}[^[0-9]]*$/) == nil
   return false
 else
   return true

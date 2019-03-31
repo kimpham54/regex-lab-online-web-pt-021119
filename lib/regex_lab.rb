@@ -31,3 +31,4 @@ if phone.match(/[0-9]{7}/) == nil
 else
   return true
 end
+end
